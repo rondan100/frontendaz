@@ -1,0 +1,32 @@
+.navbar {
+  .header-title {
+    font-size: 30px;
+    margin-right: 30px;
+    letter-spacing: 1px;
+    color: #f44336;
+    font-weight: bold;
+  }
+
+  .prod-search {
+    height: 50px;
+    width: 300px;
+  }
+
+  .nav-item {
+    font-size: 16px;
+  }
+
+  .prod-btn-main {
+    border-color: #f44336;
+    color: #f44336;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #f44336;
+      border-color: #f44336;
+      color: white;
+      box-shadow: none;
+    }
+  }
+}
